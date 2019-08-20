@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "JavaScript development environment",
   "scripts": {
-    "prestart":"node buildScripts/startMessage.js",
-    "start":"npm-run-all --parallel security-check open:src  ",
-    "open:scr":"node buildScripts/srcServer.js",
-    "security-check":"nsp check",
-    "share":"lt __port 3003"
+    "prestart": "node buildScripts/startMessage.js",
+    "start": "npm-run-all --parallel security-check open:src  ",
+    "open:scr": "node buildScripts/srcServer.js",
+    "security-check": "nsp check",
+    "share": "lt __port 3003"
   },
   "author": "Eloi Inteyiteka",
   "license": "MIT",
